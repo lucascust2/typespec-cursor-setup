@@ -7,8 +7,7 @@ command -v jq >/dev/null 2>&1 || brew install jq
 npm install -g @typespec/compiler
 
 # Step 2: Alias VS Code CLI and install TypeSpec extension
-alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
-code --install-extension typespec.typespec-vscode@1.0.0
+"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" --install-extension typespec.typespec-vscode@1.0.0
 
 # Step 3: Copy TypeSpec extension folder from VS Code to Cursor
 cp -r ~/.vscode/extensions/typespec.typespec-* ~/.cursor/extensions/
