@@ -48,4 +48,4 @@ The script:
 ### Easiest way (one-liner):
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/typespec-setup/main/enable-typespec.sh | bash
+curl -sSL https://raw.githubusercontent.com/lucascust2/typespec-setup/main/enable-typespec.sh | bash
